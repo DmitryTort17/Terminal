@@ -1,22 +1,22 @@
 # Terminal
 1е ДЗ
-1) pwd
-2) mkdir testfolder
-3) cd testfolder
-4) mkdir testfolder1 testfolder2 testfolder3
-5) cd testfolder1
-6) touch text.txt text2.txt text3.txt text.json text2.json
-7) mkdir one two three
-8) ls -la
-9) cat text.txt
-10) vim /text.txt - нажить i - ввести информацию
-11) Нажать ESC для выхода из режима режактирования - ввести :wq для сохранения и выхода
-12) cd ..
-13) mv text.json text2.json /c/testfolder/testfolder2
-14) cp text.txt text2.txt /c/testfolder/testfolder3
-15) find -name text.txt
-16) tail -f text.txt
-17) head text.txt
-18) tail text.txt
-19) less text.txt
-20) date
+1) Посмотреть где я - pwd
+2) Создать папку - mkdir testfolder
+3) Зайти в папку - cd testfolder
+4) Создать 3 папки - mkdir testfolder1 testfolder2 testfolder3
+5) Зайти в любоую папку - cd testfolder1
+6) Создать 5 файлов (3 txt, 2 json) - touch text.txt text2.txt text3.txt text.json text2.json
+7) Создать 3 папки - mkdir one two three
+8. Вывести список содержимого папки - ls -la
+9) + Открыть любой txt файл - cat text.txt
+10) + написать туда что-нибудь, любой текст. - vim /text.txt - нажить i - ввести информацию
+11) + сохранить и выйти. - Нажать ESC для выхода из режима режактирования - ввести :wq для сохранения и выхода
+12) Выйти из папки на уровень выше - cd ..
+13) переместить любые 2 файла, которые вы создали, в любую другую папку. - mv text.json text2.json /c/testfolder/testfolder2
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку. - cp text.txt text2.txt /c/testfolder/testfolder3
+15) Найти файл по имени - find -name text.txt
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает. tail -f text.txt
+17) вывести несколько первых строк из текстового файла - head text.txt
+18) вывести несколько последних строк из текстового файла - tail text.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает. - less text.txt
+20) вывести дату и время - date
